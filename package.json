@@ -1,0 +1,44 @@
+{
+  "name": "hoothooks",
+  "version": "0.0.1",
+  "description": "React hooks for your React app",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "source": "./src/index.ts",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "files": [
+    "dist",
+    "dist/index.d.ts",
+    "dist/index.js"
+  ],
+  "keywords": [
+    "react",
+    "hooks"
+  ],
+  "author": "Daustinn <hello@daustinn.com>",
+  "license": "MIT",
+  "homepage": "https://daustinn.com/hoothooks",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daustinn/hoothooks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/daustinn/hoothooks/issues"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@eslint/js": "^9.20.0",
+    "@types/node": "^22.13.1",
+    "@types/react": "^19.0.8",
+    "eslint": "^9.20.0",
+    "globals": "^15.14.0",
+    "typescript-eslint": "^8.24.0",
+    "react": "^17.0.0"
+  },
+  "dependencies": {}
+}

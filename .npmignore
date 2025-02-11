@@ -1,0 +1,10 @@
+node_modules/
+src/
+website/
+tsconfig.json
+pnpm-lock.yaml
+eslint.config.mjs
+.prettierrc.json
+bun.lockb
+.git/
+.npmignore
