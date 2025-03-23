@@ -8,7 +8,6 @@
     "noImplicitAny": false,
     "skipLibCheck": true,
     "module": "esnext",
-    "sourceMap": true,
     "outDir": "dist",
     "declaration": true,
     "declarationDir": "./dist",

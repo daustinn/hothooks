@@ -1,44 +1,44 @@
 {
-  "name": "hoothooks",
-  "version": "0.0.1",
-  "description": "React hooks for your React app",
+  "name": "hothooks",
+  "version": "0.0.40",
+  "author": "Daustinn <hello@daustinn.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daustinn/usehooks.git"
+  },
   "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "source": "./src/index.ts",
+  "devDependencies": {
+    "@eslint/js": "^9.20.0",
+    "@types/node": "^22.13.1",
+    "@types/react": "^19.0.8",
+    "esbuild": "^0.25.0",
+    "eslint": "^9.20.0",
+    "globals": "^15.14.0",
+    "react": "^17.0.0",
+    "typescript-eslint": "^8.24.0"
+  },
   "exports": {
     ".": "./dist/index.js"
   },
-  "scripts": {
-    "build": "tsc"
+  "bugs": {
+    "url": "https://github.com/daustinn/usehooks/issues"
   },
+  "description": "React hooks for your React app",
   "files": [
     "dist",
     "dist/index.d.ts",
     "dist/index.js"
   ],
+  "homepage": "https://daustinn.com/usehooks",
   "keywords": [
     "react",
     "hooks"
   ],
-  "author": "Daustinn <hello@daustinn.com>",
   "license": "MIT",
-  "homepage": "https://daustinn.com/hoothooks",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/daustinn/hoothooks.git"
+  "scripts": {
+    "build": "tsc && esbuild dist/**/*.js --minify --outdir=dist --allow-overwrite"
   },
-  "bugs": {
-    "url": "https://github.com/daustinn/hoothooks/issues"
-  },
+  "source": "./src/index.ts",
   "type": "module",
-  "devDependencies": {
-    "@eslint/js": "^9.20.0",
-    "@types/node": "^22.13.1",
-    "@types/react": "^19.0.8",
-    "eslint": "^9.20.0",
-    "globals": "^15.14.0",
-    "typescript-eslint": "^8.24.0",
-    "react": "^17.0.0"
-  },
-  "dependencies": {}
+  "types": "dist/index.d.ts"
 }
